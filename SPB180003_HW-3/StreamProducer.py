@@ -6,10 +6,10 @@ from tweepy.streaming import StreamListener
 from kafka import KafkaProducer
 
 # TWITTER API CONFIGURATIONS
-consumer_key = "a0EuavCBCteJ4HDZulEt2aMGn"
-consumer_secret = "10WeFjnIDNcLyATjzt0y5xODxmnudbuLxDD0iDMq9z2itMKYQl"
-access_token = "1003508069542707200-lAstoqrb5wFFTV9AyzTHiv0PUpbQkn"
-access_secret = "FFsCLgjS1TmNHIZ4cJDp9wJ20TocIxzCS8LyhPt7JQQUv"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_secret = ""
 
 # TWITTER API AUTH
 auth = OAuthHandler(consumer_key, consumer_secret)
